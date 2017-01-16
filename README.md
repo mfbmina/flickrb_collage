@@ -28,10 +28,17 @@ And then execute:
 Or install it yourself as:
 
     $ gem install flickrb_collage
+    
+## Dependencies
+
+You must have this in your O.S:
+
+* Ruby (>= 2.2.3)
+* ImageMagick
 
 ## Usage
 
-You need a config file named  ```config/flickr.yml``` with:
+Create a config file named  ```config/flickr.yml``` with:
 
 ```yml
 flickr:
